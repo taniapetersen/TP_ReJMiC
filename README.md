@@ -38,7 +38,7 @@
 </p>
 
 - ### Programme et tutoriel pour le TP :
-   - Lien vers le [TP](tutorial_TP/tutoTP.md)
+   - Lien vers le [TP](tutoTP.md)
    - Objectif : identifier la présence d'une épidémie hospitalière à partir des données génomiques d’une trentaine de souches de *Streptococcus agalactiae* issues d’un séquenceur haut débit de type Illumina.
 
     - Etapes de l’analyse :
