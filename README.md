@@ -21,6 +21,9 @@
 </p>
 
 ## Intervenants :
+**Dr Tania Petersen**
+
+**Dr Nicolas Delettre**
 
 **Dr Alexandre Godmer** (AHU département de bactériologie, site hôpital Saint-Antoine, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
 
@@ -106,3 +109,105 @@ Un des logiciels de nettoyage de séquences les plus utilisés, disponible sur G
 **Attention :** Il est important de traiter de la même manière les fichiers R1 et R2
 
 Pour vous aider à comprendre le rapport généré par l'application, vous trouverez le manuel en suivant ce [lien](docs/FastQC_Manual.pdf).
+
+## **4)	Réalisation du mapping et du variant calling**
+
+- Pour cette étape, vous aurez besoin du logiciel Snippy, que vous pouvez chercher dans Galaxy grâce à la fenêtre « search tools » :
+
+<p align="center">
+  <img src="captures_tp/6.png">
+</p>
+
+- Vous pouvez moduler les paramètres du logiciel selon vos souhaits. Indiquer que vous voulez sélectionner un génome de référence à partir de votre historique et importer votre génome de référence : 
+
+<p align="center">
+  <img src="captures_tp/7.png">
+</p>
+
+- Vous pouvez également choisir les paramètres de sortie :
+
+<p align="center">
+  <img src="captures_tp/8.png">
+</p>
+
+- Cliquer sur « Run Tool » :
+<p align="center">
+  <img src="captures_tp/9.png">
+</p>
+
+- Les analyses lancées apparaissent en orange dans votre historique, sur la droite de l’écran : 
+
+<p align="center">
+  <img src="captures_tp/10.png">
+</p>
+
+- Une fois que les analyses sont terminées, elles apparaissent en vert dans l’historique. Les résultats de cette analyse sont disponibles sous la forme de 3 fichiers différents :
+-	Un fichier « vcf » (variant call format) : format standard du rapport de SNP
+-	Un fichier tab : correspond à un tableur avec les données
+-	Un dossier compressé qui sert d’input au programme Snippy core 
+
+## **5)	Etape d’alignement multiple**
+
+- Nous utiliserons le programme Snippy core afin de générer un fichier Fasta contenant l’alignement multiple de toutes les séquences sur le génome de référence. Cliquer sur « Dataset collection » dans les paramètres du logiciel afin de sélectionner le dossier compressé généré précédemment par Snippy.
+
+<p align="center">
+  <img src="captures_tp/11.png">
+</p>
+
+Le format FASTA est utilisé pour les séquences nucléotidiques ou protéiques. Les informations d’un fichier FASTA sont organisées deux lignes pour chaque contig :
+-	"> + identifiant"
+-	Séquence nucléotidique du contig
+
+<p align="center">
+  <img src="captures_tp/12.png.jpg">
+</p>
+
+
+- Choisir les caractéristiques de l’output :
+
+<p align="center">
+  <img src="captures_tp/13b.png">
+</p>
+
+
+- Cliquer sur « Run Tool »
+
+Le fichier de sortie nécessite une étape de reformatage réalisable grâce à l’outil « Snippy clean full aln » disponible sur Galaxy.
+
+## **6)	Construction de l’arbre phylogénique**
+
+- Pour la construction de l’arbre, nous utilisons le logiciel Fasttree, disponible dans Galaxy :
+
+- Cliquer sur la disquette pour télécharger l’arbre
+
+<p align="center">
+  <img src="captures_tp/13.png">
+</p>
+
+- Définition modèle GTR + CAT : définition
+ -	Pour visualiser l’arbre, il suffit d’importer le fichier sur le site phandango ou iTOL : 
+ -	Phandango : [phandango](jameshadfield.github.io)
+Cet outil possède l’avantage de permettre également une visualisation de la matrice de SNP, toutefois il n’est pas possible d’enraciner l’arbre
+
+<p align="center">
+  <img src="captures_tp/14.png">
+</p>
+
+-	iTOL : iTOL: [Interactive Tree Of Life](embl.de)
+
+<p align="center">
+  <img src="captures_tp/15.png">
+</p>
+
+<p align="center">
+  <img src="captures_tp/16.png">
+</p>
+
+## **7)	Construction d’une matrice de SNP**
+Utilisation du logiciel SNP distance Matrix 
+Heatmap
+- Créer le workflow
+
+<p align="center">
+  <img src="captures_tp/17.png">
+</p>
