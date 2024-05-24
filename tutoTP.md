@@ -2,7 +2,6 @@
 
 ### Pré-requis
 - Création d'un compte sur [Galaxy](usegalaxy.org) 
-- 
 
 ### Objectifs :
 Identifier la présence d'une épidémie hospitalière à partir des données génomiques d’une trentaine de souches de *Streptococcus agalactiae* issues d’un séquenceur haut débit de type Illumina.

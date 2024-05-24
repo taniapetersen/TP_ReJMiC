@@ -28,8 +28,22 @@
 
 ## programme de la journée :
 
-- Programme et tutorial pour le [TP](tutorial_TP/tutoTP.md)
+<p align="left">
+  <img src="Images/affiche-jbio.jpg">
+</p>
 
+### Programme et tutoriel pour le [TP](tutorial_TP/tutoTP.md)
+
+#### lien vers le [TP](tutorial_TP/tutoTP.md)
+##### Objectifs :
+Identifier la présence d'une épidémie hospitalière à partir des données génomiques d’une trentaine de souches de *Streptococcus agalactiae* issues d’un séquenceur haut débit de type Illumina.
+
+##### Etapes de l’analyse :
+-	Récupération des fichiers de séquençage (format .fastq)
+-	Vérification de la qualité des séquences
+-	Alignement sur un génome de référence
+-	Réalisation d’une matrice de SNP
+-	Construction d’un arbre phylogénique 
 ---
 **Organisé par le ReJMIC :**
 <p align="left">
