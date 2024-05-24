@@ -40,12 +40,20 @@
   <img src="Images/affiche-jbio.jpg">
 </p>
 
-- ### Programme et tutoriel pour le TP :
+**Déroulé de la journée** :
+
+- **8h30** : Accueil des participants - petit déjeuner 
+- **9h - 10** : Introduction et préparation du TP (N. Delettre)
+- **10h - 11h30** : Métagénomique (M. Salmona)
+- **11h45-13h15** : Outils d'analyses génomiques (G. Royer)
+- **14h30 - 17h** : Travaux pratiques (N. Delettre, A. Godmer, T. Petersen)
+
+## Tutoriel pour le TP :
    - Lien vers le [TP](tutoTP.md)
    - Objectif : identifier la présence d'une épidémie hospitalière à partir des données génomiques d’une trentaine de souches de *Streptococcus agalactiae* issues d’un séquenceur haut débit de type Illumina.
 
     - Etapes de l’analyse :
-      -	Récupération des fichiers de séquençage (format .fastq)
+      -	Récupération des fichiers de séquençage
       -	Vérification de la qualité des séquences
       -	Alignement sur un génome de référence
       -	Réalisation d’une matrice de SNP
