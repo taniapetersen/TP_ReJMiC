@@ -33,3 +33,9 @@
 <p align="left">
   <img src="Images/Logo_Sorbonne_Universite.png" width="200" height="80">
 </p>
+
+
+## Réalisation du TP :
+
+### Pré-requis
+- Création d'un compte sur [Galaxy](galagy.org) 
