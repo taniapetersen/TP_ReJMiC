@@ -1,5 +1,7 @@
 # Journée Bio-Informatique ReJMIC, EDITION N°4
-
+<p align="center">
+  <img src="Images/logo_ReJMIC.PNG" width="110" height="100">
+</p>
 ---
 
 **Le [ReJMIC](https://www.sfm-microbiologie.org/presentation-de-la-sfm/sections-et-groupes-de-travail/rejmic/) présente une journée d'inititation à la bioinformatique avec pour thématique : "Sciences Omiques : focus sur le génomique"**
@@ -20,31 +22,32 @@
 </p>
 
 ## Intervenants :
-**Dr Tania Petersen**
+- **Dr Tania Petersen**
 
-**Dr Nicolas Delettre**
+- **Dr Nicolas Delettre**
 
-**Dr Alexandre Godmer** (AHU département de bactériologie, site hôpital Saint-Antoine, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
+- **Dr Alexandre Godmer** (AHU département de bactériologie, site hôpital Saint-Antoine, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
+
+- **Dr Maud Salmona**
+
+- **Dr Ghuilhem Royer**
 
 ## programme de la journée :
 <p align="left">
   <img src="Images/affiche-jbio.jpg">
 </p>
-=======
-- Programme et tutorial pour le [TP](tutoTP.md)
 
-### Programme et tutoriel pour le [TP](tutorial_TP/tutoTP.md)
+- ### Programme et tutoriel pour le TP :
+   - Lien vers le [TP](tutorial_TP/tutoTP.md)
+   - Objectif : identifier la présence d'une épidémie hospitalière à partir des données génomiques d’une trentaine de souches de *Streptococcus agalactiae* issues d’un séquenceur haut débit de type Illumina.
 
-#### lien vers le [TP](tutorial_TP/tutoTP.md)
-##### Objectifs :
-Identifier la présence d'une épidémie hospitalière à partir des données génomiques d’une trentaine de souches de *Streptococcus agalactiae* issues d’un séquenceur haut débit de type Illumina.
-
-##### Etapes de l’analyse :
--	Récupération des fichiers de séquençage (format .fastq)
--	Vérification de la qualité des séquences
--	Alignement sur un génome de référence
--	Réalisation d’une matrice de SNP
--	Construction d’un arbre phylogénique 
+    - Etapes de l’analyse :
+      -	Récupération des fichiers de séquençage (format .fastq)
+      -	Vérification de la qualité des séquences
+      -	Alignement sur un génome de référence
+      -	Réalisation d’une matrice de SNP
+      -	Construction d’un arbre phylogénique
+  
 ---
 **Organisé par le ReJMIC :**
 <p align="left">
