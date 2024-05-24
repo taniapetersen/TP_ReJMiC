@@ -28,9 +28,12 @@
 
 ## programme de la journée :
 
+<<<<<<< HEAD
 <p align="left">
   <img src="Images/affiche-jbio.jpg">
 </p>
+=======
+- Programme et tutorial pour le [TP](tutoTP.md)
 
 ### Programme et tutoriel pour le [TP](tutorial_TP/tutoTP.md)
 
