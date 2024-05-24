@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Journée Bio-Informatique ReJMIC, EDITION N°4
 
 ---
@@ -39,3 +40,6 @@
 
 ### Pré-requis
 - Création d'un compte sur [Galaxy](galagy.org) 
+=======
+# TP_ReJMiC
+>>>>>>> 0d5328c5e8ccbd87aa95230949c0fade298cebc4
