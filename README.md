@@ -28,7 +28,7 @@
 
 ## programme de la journée :
 
-- Programme et tutorial pour le [TP](tutorial_TP/tutoTP.md)
+- Programme et tutorial pour le [TP](tutoTP.md)
 
 ---
 **Organisé par le ReJMIC :**
