@@ -27,8 +27,6 @@
 **Dr Alexandre Godmer** (AHU département de bactériologie, site hôpital Saint-Antoine, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
 
 ## programme de la journée :
-
-<<<<<<< HEAD
 <p align="left">
   <img src="Images/affiche-jbio.jpg">
 </p>
