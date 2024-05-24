@@ -27,6 +27,10 @@
 
 **Dr Alexandre Godmer** (AHU département de bactériologie, site hôpital Saint-Antoine, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
 
+## programme de la journée :
+
+- Programme et tutorial pour le [TP](tutorial_TP/tutoTP.md)
+
 ---
 **Organisé par le ReJMIC :**
 <p align="left">
@@ -37,6 +41,7 @@
 <p align="left">
   <img src="Images/Logo_Sorbonne_Universite.png" width="200" height="80">
 </p>
+
 
 
 ## Réalisation du TP :
