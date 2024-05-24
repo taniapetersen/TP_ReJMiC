@@ -52,12 +52,12 @@
    - Lien vers le [TP](tutoTP.md)
    - Objectif : identifier la présence d'une épidémie hospitalière à partir des données génomiques d’une trentaine de souches de *Streptococcus agalactiae* issues d’un séquenceur haut débit de type Illumina.
 
-    - Etapes de l’analyse :
-      -	Récupération des fichiers de séquençage
-      -	Vérification de la qualité des séquences
-      -	Alignement sur un génome de référence
-      -	Réalisation d’une matrice de SNP
-      -	Construction d’un arbre phylogénique
+  - Etapes de l’analyse :
+    -	Récupération des fichiers de séquençage
+    -	Vérification de la qualité des séquences
+    -	Alignement sur un génome de référence
+    -	Réalisation d’une matrice de SNP
+    -	Construction d’un arbre phylogénétique
   
 ---
 **Organisé par le ReJMIC :**
