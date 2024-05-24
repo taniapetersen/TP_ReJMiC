@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Journée Bio-Informatique ReJMIC, EDITION N°4
 
 ---
