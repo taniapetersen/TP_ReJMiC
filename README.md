@@ -35,7 +35,7 @@
 
 
 
-## programme de la journée :
+## Programme de la journée :
 <p align="left">
   <img src="Images/affiche-jbio.jpg">
 </p>
