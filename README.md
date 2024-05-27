@@ -27,11 +27,11 @@
 
 - **Dr Guilhem Royer** (MCU-PH, service de Bactériologie-Virologie, Hôpital Henri Mondor)
 
-- **Dr Tania Petersen** (AHU, service de Bactériologie, GH Pitié-Salpétrière, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
-
 - **Dr Nicolas Delettre** (AS, service de Bactériologie, GH Pitié-Salpétrière)
 
 - **Dr Alexandre Godmer** (AHU, épartement de Bactériologie, site hôpital Saint-Antoine, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
+
+- **Dr Tania Petersen** (AHU, service de Bactériologie, GH Pitié-Salpétrière, Sorbonne-Université, INSERM, U1135, Centre d’Immunologie et des Maladies Infectieuses, [Cimi-Paris](https://cimiparis.fr/), Paris).
 
 
 
