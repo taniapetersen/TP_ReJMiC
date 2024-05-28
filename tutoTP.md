@@ -120,7 +120,7 @@ Le principal critère à vérifier est la couverture d'une large portion du gén
 Si une souche est de mauvaise qualité, l'exclure de l'analyse et recommencer.
 
 <p align="center">
-  <img src="captures_tp/11.png">
+  <img src="captures_tp/10c.png">
 </p>
 
 ## **6)	Etape d’alignement multiple**
