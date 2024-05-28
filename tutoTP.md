@@ -85,7 +85,7 @@ Pour vous aider à comprendre le rapport généré par l'application, vous trouv
 - Vous pouvez également choisir les paramètres de sortie :
 
 <p align="center">
-  <img src="captures_tp/8.png">
+  <img src="captures_tp/8b.png">
 </p>
 
 - Cliquer sur « Run Tool » :
