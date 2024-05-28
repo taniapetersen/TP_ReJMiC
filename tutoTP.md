@@ -96,7 +96,7 @@ Pour vous aider à comprendre le rapport généré par l'application, vous trouv
 - Les analyses lancées apparaissent en orange dans votre historique, sur la droite de l’écran : 
 
 <p align="center">
-  <img src="captures_tp/10.png">
+  <img src="captures_tp/10b.png">
 </p>
 
 - Une fois que les analyses sont terminées, elles apparaissent en vert dans l’historique. Les résultats de cette analyse sont disponibles sous la forme de 3 fichiers différents :
