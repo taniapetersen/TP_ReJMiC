@@ -104,7 +104,11 @@ Pour vous aider à comprendre le rapport généré par l'application, vous trouv
 -	Un fichier tab : correspond à un tableur avec les données
 -	Un dossier compressé qui sert d’input au programme Snippy core 
 
-## **5)	Etape d’alignement multiple**
+## **5)	Vérification du mapping**
+
+
+
+## **6)	Etape d’alignement multiple**
 
 - Nous utiliserons le programme Snippy core afin de générer un fichier Fasta contenant l’alignement multiple de toutes les séquences sur le génome de référence. Cliquer sur « Dataset collection » dans les paramètres du logiciel afin de sélectionner le dossier compressé généré précédemment par Snippy.
 
@@ -132,7 +136,7 @@ Le format FASTA est utilisé pour les séquences nucléotidiques ou protéiques.
 
 Le fichier de sortie nécessite une étape de reformatage réalisable grâce à l’outil « Snippy clean full aln » disponible sur Galaxy.
 
-## **6)	Construction de l’arbre phylogénique**
+## **7)	Construction de l’arbre phylogénique**
 
 - Pour la construction de l’arbre, nous utilisons le logiciel Fasttree, disponible dans Galaxy :
 
@@ -161,7 +165,7 @@ Cet outil possède l’avantage de permettre également une visualisation de la 
   <img src="captures_tp/16.png">
 </p>
 
-## **7)	Construction d’une matrice de SNP**
+## **8)	Construction d’une matrice de SNP**
 Utilisation du logiciel SNP distance Matrix 
 Heatmap
 - Créer le workflow
