@@ -54,9 +54,14 @@ Identifier la présence d'une épidémie hospitalière à partir des données g�
 
 ## **2) Créer une collection**
 
+Une collection est un dossier organisé qui regroupe des fichiers similaires. Ici, nous créons une collection regroupant tous nos fichiers fastQ pour faciliter les manipulations ultérieures. 
+
+Cliquer sur l''outil de sélection des fichiers, cocher tous les fastQ, ouvrir le menu déroulant et cliquer sur "Build List of Dataset Pairs".
+Vérifier que les fichiers R1 et R2 de chaque souche sont bien rangés ensemble, cocher "Hide original elements" et "Remove file extensions", nommer la collection et cliquer sur "Create collection".
+
 ## **3)	Contrôler la qualité des séquences**
 
-L’analyse de la qualité des séquences est une étape importante, réalisée grâce au logiciel FastQC (QC : Quality Control). Pour cela, il faut lancer une analyse FastQC.
+L’analyse de la qualité du séquençage est une étape importante, réalisée grâce au logiciel FastQC (QC : Quality Control). Pour cela, il faut lancer une analyse FastQC.
 
 NB : il est possible de réaliser un nettoyage des séquences, appelé « *trimming* » qui consiste à :
 - Retirer les adaptateurs utilisés afin de fixer les séquences à la flowcell pour le séquençage
@@ -106,7 +111,17 @@ Pour vous aider à comprendre le rapport généré par l'application, vous trouv
 
 ## **5)	Vérification du mapping**
 
+L'analyse phylogénétique sera réalisée sur le core génome de la collection, c'est à dire sur la portion du génome commune à toutes les souches. Si la séquence d'une seule souche est de mauvaise qualité ou si l'espèce séquencée est différente à cause d'une contamination, ce core génome sera extremmement réduit voire nul. C'est pourquoi il faut s'assurer de la qualité de chaque génome à partir du mapping réalisé.
 
+Pour celà, utiliser QualiMap BamQC qui donne la qualité du mapping pour chaque souche.
+En entrée, donner la collection de fichiers bam générés par snippy puis cliquer sur "run tool" avec les paramètres par défaut.
+
+Le principal critère à vérifier est la couverture d'une large portion du génome (le seuil dépend de la clonalité de l'échantillon) avec une profondeur suffisante (20 à 30X).
+Si une souche est de mauvaise qualité, l'exclure de l'analyse et recommencer.
+
+<p align="center">
+  <img src="captures_tp/11.png">
+</p>
 
 ## **6)	Etape d’alignement multiple**
 
