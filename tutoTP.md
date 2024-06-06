@@ -161,7 +161,7 @@ Le fichier de sortie nécessite une étape de reformatage réalisable grâce à 
   <img src="captures_tp/13.png">
 </p>
 
--	iTOL : iTOL: [Interactive Tree Of Life](embl.de)
+-	iTOL: [Interactive Tree Of Life](embl.de)
 
 <p align="center">
   <img src="captures_tp/15.png">
