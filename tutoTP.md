@@ -161,15 +161,6 @@ Le fichier de sortie nécessite une étape de reformatage réalisable grâce à 
   <img src="captures_tp/13.png">
 </p>
 
-- Définition modèle GTR + CAT : définition
- -	Pour visualiser l’arbre, il suffit d’importer le fichier sur le site phandango ou iTOL : 
- -	Phandango : [phandango](jameshadfield.github.io)
-Cet outil possède l’avantage de permettre également une visualisation de la matrice de SNP, toutefois il n’est pas possible d’enraciner l’arbre
-
-<p align="center">
-  <img src="captures_tp/14.png">
-</p>
-
 -	iTOL : iTOL: [Interactive Tree Of Life](embl.de)
 
 <p align="center">
